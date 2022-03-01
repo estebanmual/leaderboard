@@ -16,6 +16,23 @@
 
 [Live Demo Link](https://livedemo.com)
 
+## Getting Started
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+You should have installed node.js in your computer in order to use this.
+
+### Setup
+Clone the repository into your local enviroment
+
+### Install
+Run the next command => npm install
+This command will install all the dependencies that we need to make work the project.
+
+### Usage
+To enter in develop mode run => npm start
+To enter production mode run => npm run build
+
 
 ## Authors
 
