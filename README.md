@@ -1,56 +1,48 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
+<img src="https://wakatime.com/badge/user/be79098d-c59e-407c-8952-0f274bb9e265/project/508ec814-cdd5-44c1-9678-51cda72acb32.svg" />
 
-# Project Name
+# Leaderboard
 
-> Description the project.
+> In here you can submit the score you made in __ and challenge yourself to appear in the top ladder
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Webpack
+- HTML5
+- CSS3
+- JavaScript
 
-## Live Demo (if available)
+## Live Demo (available when merge)
 
 [Live Demo Link](https://livedemo.com)
 
-
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
+You should have installed node.js in your computer in order to use this.
 
 ### Setup
+Clone the repository into your local enviroment
 
 ### Install
+Run the next command => npm install
+This command will install all the dependencies that we need to make work the project.
 
 ### Usage
-
-### Run tests
-
-### Deployment
-
+To enter in develop mode run => npm start
+To enter production mode run => npm run build
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Edgar Esteban Muñoz Alba**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@estebanmual](https://github.com/estebanmual)
+- Twitter: [@estebanmual](https://twitter.com/estebanmual)
+- LinkedIn: [Esteban Munoz](https://linkedin.com/in/estebanmual)
+- Instagram: [@estebanmual](https://instagram.com/estebanmual)
 
 ## 🤝 Contributing
 
