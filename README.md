@@ -27,11 +27,11 @@ You should have installed node.js in your computer in order to use this.
 Clone the repository into your local enviroment
 
 ### Install
-Run the next command => npm install
+Run the next command => npm install <br>
 This command will install all the dependencies that we need to make work the project.
 
 ### Usage
-To enter in develop mode run => npm start
+To enter in develop mode run => npm start <br>
 To enter production mode run => npm run build
 
 
