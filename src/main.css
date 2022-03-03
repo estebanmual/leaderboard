@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -9,16 +11,22 @@ html {
 }
 
 body {
-  background-color: #f6f6f6;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 img,
+h2 img {
+  height: 22.5px;
+  width: auto;
+  margin-left: 10px;
 }
 
 main {
-  background-color: white;
   width: 80%;
   height: auto;
   display: flex;
@@ -34,46 +42,113 @@ main {
 h1 {
   text-align: left;
   width: 80%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 2.25rem;
+  font-weight: 500;
+}
+
+h1 span {
+  font-weight: bolder;
+}
+
+tbody {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+  height: 400px;
+  overflow: scroll;
+  border-radius: 5%;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 5px 15px;
+  height: 52.5px;
+  font-size: 1.8rem;
+  background-color: #339af7;
+  background-image: linear-gradient(448deg, rgba(0, 191, 255, 0.2) 4%, white 74%);
+  border: none;
+  border-radius: 20px 20px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+tbody::-webkit-scrollbar,
+input::-webkit-inner-spin-button {
+  display: none;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
 }
 
 h2 {
-  margin: 8px 0;
+  margin-bottom: 10px;
   display: flex;
   align-items: center;
-  column-gap: 10px;
+  font-size: 2.25rem;
 }
 
 section {
   width: 45%;
 }
 
-table {
-  border-collapse: collapse;
+tr {
   width: 100%;
-  border: 1px solid black;
-}
-
-tr:nth-child(even) {
-  background-color: #f2f2f2;
 }
 
 td {
   padding: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.refresh-button {
-  font-size: 1rem;
-  padding: 1px;
+td span:first-child {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
 }
 
-input {
-  margin-bottom: 10px;
-  padding: 5px;
+h3 {
+  font-weight: bolder;
+  font-size: 1.8rem;
 }
 
-.submit-button {
-  margin-bottom: 10px;
-  padding: 3px;
-  width: fit-content;
-  align-self: flex-end;
+h3,
+td p {
+  color: white;
+  text-align: center;
+}
+
+td p {
+  font-size: 1.5rem;
+  margin: 4px;
+}
+
+td p:last-child {
+  font-weight: 200;
+}
+
+td img {
+  height: 60px;
+  width: auto;
+  object-fit: contain;
+  border-top-right-radius: 75%;
+  border-bottom-right-radius: 75%;
+  margin: -5px;
+}
+
+input::placeholder {
+  font-size: 1.8rem;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+input:focus {
+  border: 2px solid #339af7;
+  outline: none;
 }

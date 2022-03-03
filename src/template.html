@@ -6,19 +6,20 @@
     <title>Webpack Exercise</title>
 </head>
 <body>
-    <h1>Leaderboard</h1>
+    
     <main>
         <section class="recent-scores-section">
-            <h2>Recent scores <button class="refresh-button" type="button">Refresh</button></h2>
-            <table class="scores-table">
-                
+            <h1><span>Leader</span>board<img src="./assets/refresh-page-option.svg" alt="refresh button" class="refresh-button"></h1>
+            <table>
+                <tbody class="scores-table">
+
+                </tbody>
             </table>
         </section>
         <section class="add-scores-section">
-            <h2>Add your score</h2>
+            <h2>Add your score <img src="./assets/diskette.svg" alt="Save" class="submit-button"></h2>
             <input class="name-input" type="text" placeholder="Your name" required>
             <input class="score-input" type="number" placeholder="Your score" required>
-            <button type="submit" class="submit-button">Submit</button>
         </section>
     </main>
 </body>
